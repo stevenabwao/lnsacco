@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.downloadText{
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: -0px;
+}
+.span{
+    color: red;
+}.downloads{flex-flow: column;
+    min-height: 110px;
+    background-color: blue;
+    text-align: center; 
+    padding-bottom: 15px;
+}
+.btn-primary{
+    background: lightseagreen;
+    border-radius: 2rem;
+    color: black;
+    border-color: lightseagreen;;
+    height: 3rem;
+    
+}
