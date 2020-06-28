@@ -19,7 +19,7 @@ const content = [
 		description:
 		'Enjoy our fast, simple and competitive benefit on loans.',
 		button: 'our loan products',
-		image:  require('../../../images/money.jpeg')
+		image:  require('./money2.jpeg')
 	},
 	{
 		title: 'START SAVING WITH US',
