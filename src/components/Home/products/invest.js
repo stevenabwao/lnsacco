@@ -139,10 +139,9 @@ const Investments = () => {
                 color="blUE"
                 size="2x"
             />
-            <span className = 'title'>E-Kash</span><br></br><br></br>
+            <span className = 'title'>Target Investments</span><br></br><br></br>
             <div className = 'content'>
-Lorem ipsum dolor sit amet, consectateur adispicing elit. 
-Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+Enable one to save to reach a given target after a specified period of time
 <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
 </div>
 
@@ -153,10 +152,9 @@ Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
                 color="blue"
                 size="2x"
             />
-            <span className = 'title'>Edu-Kash</span><br></br><br></br>
+            <span className = 'title'>Family Investments</span><br></br><br></br>
 <div className = 'content'>
-Lorem ipsum dolor sit amet, consectateur adispicing elit. 
-Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+Save and see your family grow and be empowered financially
 <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
 </div>
 
@@ -167,7 +165,7 @@ Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
                 color="green"
                 size="2x"
             />
-            <span className = 'title'>AgriBiz-loan</span><br></br><br></br>
+            <span className = 'title'>Business investment</span><br></br><br></br>
             <div className = 'content'>
 Lorem ipsum dolor sit amet, consectateur adispicing elit. 
 Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
@@ -185,7 +183,7 @@ Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
                 color="blUE"
                 size="2x"
             />
-            <span className = 'title'>salary Loans</span><br></br><br></br>
+            <span className = 'title'>Children investment</span><br></br><br></br>
             <div className = 'content'>
 Lorem ipsum dolor sit amet, consectateur adispicing elit. 
 Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
@@ -199,7 +197,7 @@ Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
                 color="blue"
                 size="2x"
             />
-            <span className = 'title'>Chama Loans</span><br></br><br></br>
+            <span className = 'title'>Chama investment</span><br></br><br></br>
 <div className = 'content'>
 Lorem ipsum dolor sit amet, consectateur adispicing elit. 
 Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.

@@ -1,0 +1,7 @@
+{
+    "name": "lnweb",
+    "description": "lake sacco website",
+    "repository": "https://github.com/stevenabwao/lnsacco",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords": ["node", "express", "static"]
+  }
