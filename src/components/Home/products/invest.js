@@ -32,7 +32,7 @@ const Investments = () => {
                             size="2x"
                         />
                         <span className = 'title'>E-Kash</span><br></br><br></br>
-                        <img src = {require('../slider/img2.jpg')} />
+                        <img src = {require('../slider/img2.jpg')} alt=""/>
                         <div className = 'content'>
             Lorem ipsum dolor sit amet, consectateur adispicing elit. 
             Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
@@ -47,7 +47,7 @@ const Investments = () => {
                             size="2x"
                         />
                         <span className = 'title'>Edu-Kash</span><br></br><br></br>
-                        <img src = {require('../slider/img1.jpg')} />
+                        <img src = {require('../slider/img1.jpg')} alt=""/>
             <div className = 'content'>
             Lorem ipsum dolor sit amet, consectateur adispicing elit. 
             Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
@@ -62,7 +62,7 @@ const Investments = () => {
                             size="2x"
                         />
                         <span className = 'title'>AgriBiz-loan</span><br></br><br></br>
-                        <img src = {require('../slider/img3.jpg')} />
+                        <img src = {require('../slider/img3.jpg')} alt=""/>
                         <div className = 'content'>
             Lorem ipsum dolor sit amet, consectateur adispicing elit. 
             Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.

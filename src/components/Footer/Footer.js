@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 
 import "./footer.css";
 
@@ -23,15 +23,15 @@ const Footer = () => {
                     <h3>Lake National <span>S a c c o</span></h3>
 
                     <p className="footer-links">
-                        <a href="/Home" >What we do</a>
+                    <Link to='/' className='link'>Home</Link>
 
-                        <a href="/About">Who we are</a>
+                    <Link to='/about' className='link'>About</Link>
 
-                        <a href="/Products & Services">Product & services</a>
+                    <Link to='/investment' className='link'>Investment products</Link>
 
-                        <a href="/Resources">Resources</a>
+                    <Link to='/loans' className='link'>Loan products</Link>
 
-                        <a href="Contact">Talk to us</a>
+                    <Link to='/contacts' className='link'>Contact us</Link>
                     </p>
 
                     <p className="footer-company-name">Lake National S a c c o  © 2020</p>
@@ -87,19 +87,19 @@ const Footer = () => {
 
                     <div className="footer-icons">
 
-                        <a>
+                        <a href="todo">
                         <FontAwesomeIcon href="#"
                             icon={faWhatsapp}
                             color="#6DB65B"
                             size="2x"
                         />
                         </a>
-                         <a><FontAwesomeIcon
+                         <a href='todo'><FontAwesomeIcon
                             icon={faTwitter}
                             color="white"
                             size="2x"
                         /></a>
-                        <a>
+                        <a href='todo'>
                         <FontAwesomeIcon icon={faFacebook} 
                             color="#4267B2"
                             size="2x"
@@ -107,7 +107,7 @@ const Footer = () => {
                         />
                         </a>
                         
-                        <a>
+                        <a href='todo'>
                         <FontAwesomeIcon
                             icon={faLinkedin}
                             color="#2867B2"
