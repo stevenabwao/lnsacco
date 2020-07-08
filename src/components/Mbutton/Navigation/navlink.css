@@ -1,0 +1,59 @@
+.nav1{
+    display: flex;
+    background: #407ec9;;
+    justify-content: center;
+    max-width: 100%;
+    
+}
+
+
+.nav-links1{
+    display: flex;
+    flex-flow: row;
+    text-align: left;
+    list-style: none;
+    width:60vw;
+}
+
+
+
+.navButtons{
+    margin-top: 15px;
+    height:7vh;
+    background:#407ec9;;
+    color: black;
+    font-size:2.5vh;
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid skyblue;
+}
+.navButtons1{
+    margin-top: 15px;
+    height:7vh;
+    background:#407ec9;;
+    color: black;
+    font-size:2.5vh;
+    font-weight: bold;
+    border: none;
+    border-right: 1px  skyblue solid;
+    border-left: 1px  skyblue solid;
+}
+.navButtons:hover{
+    color: white;
+    border: 1px skyblue solid;
+
+}
+.navButtons1:hover{
+    color: white;
+    border: 1px skyblue solid;
+
+}
+
+.topcont{
+    display: flex;
+    flex-direction: column;
+
+}
+.spacer{
+    flex: 1;
+}

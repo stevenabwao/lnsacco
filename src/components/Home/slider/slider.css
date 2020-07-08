@@ -25,7 +25,7 @@
 .btnslide:hover {
   color: #FFFFFF;
   cursor: pointer;
-  background: blue;
+  background: #407ec9;
   -webkit-filter: drop-shadow(0 0 5px rgba(72, 197, 235, 0.2));
           filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
 }

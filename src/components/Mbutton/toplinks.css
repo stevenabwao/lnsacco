@@ -1,0 +1,23 @@
+.toplinks{
+    display: flex;
+    max-width: 100%;
+}
+.btnlink{
+    width: 55px;
+    height: 50px;
+    border: 2px rgb(0, 163, 224) solid;
+    background: white;
+    text-decoration: none;
+    margin-right: 2px;
+}
+.links{
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(16, 24 ,32);
+    margin-right: 10px;
+    font-weight: 510;
+    font-size: 20px;
+}
+.links:hover{
+    color:red
+}

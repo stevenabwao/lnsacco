@@ -9,6 +9,7 @@
     background-blend-mode: soft-light;
     align-items: center;
     text-align: center;
+    opacity: 0.8;
 }
 .dialer{
     font-size: 2em;

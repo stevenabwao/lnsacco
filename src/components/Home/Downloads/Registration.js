@@ -4,12 +4,12 @@ import './registration.css'
 
 const Registration = () => {
     return ( 
-        <div className = "container">
+        <div className = "">
     <div className= "downloads">
-        <h1 className="downloadText"> Download our membership <span className = 'span'>application form </span></h1><br></br>
+        <h1 className="downloadText"> Fill our membership <span className = 'span'>application form </span></h1><br></br>
        
         
-             <button className = "btn-primary">DOWNLOAD PDF</button>
+             <button className = "btn-down">click to register</button>
 
         </div>
         </div>

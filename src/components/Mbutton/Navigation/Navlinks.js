@@ -1,20 +1,43 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom'
+import './navlink.css'
+import Dropdown from "./dropdown";
 
 
-const Navlinks = () =>{
+const Navlinks = () => {
+  const [dropdownOpen, setDropdownOpen] =  useState(false);
 
-    return (
-      <div>
-         <ul className = 'nav-links'>
-              <li><Link to='/' className='link'>What we do</Link></li>
-              <li><Link to='/About' className='link'>Who we are</Link></li>
-              <li><Link to='/impact'className='link'>Products & Services</Link></li>
-              <li><Link to='/Resources'className='link'>Our Resources</Link></li>
-              <li><Link to='Contacts'className='link'>Talk to us</Link></li>
+
+  const openHandler = ()=>{
+   
+      setDropdownOpen(true)
+  
+    
+
+  }
+  // let dropdown
+  // if(!dropdownOpen){
+  //           dropdown = <Dropdown />
+  // }
+  // else{
+  //           dropdown=""
+  // }
+  return ( 
+    <div >
+        <div className = "nav1">
+         <ul className = 'nav-links1'>
+              <li ><Link to='/' className='active'><button className = "navButtons1">HOME</button></Link></li>
+              <li ><Link to='/About' className='active'><button className = "navButtons">ABOUT US</button></Link></li>
+              <li ><Link to='#' className='active'><button className = "navButtons">MANAGEMENT</button></Link></li>
+              <li><button onClick={openHandler} className = "navButtons">PRODUCTS</button></li>
+              <li ><Link to='/Resources'className='active'><button className = "navButtons">RESOURCES</button></Link></li>
+              <li ><Link to='Contacts'className='active'><button className = "navButtons">CONTACT US</button></Link></li>
           </ul>
+          
       </div>
-    );
+     {/* dropdown} { */}
+      </div>
+   );
 }
-
-export default Navlinks
+ 
+export default Navlinks;

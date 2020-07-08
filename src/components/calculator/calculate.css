@@ -1,0 +1,51 @@
+.loanCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+.loan{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 2rem;
+    width: 30%;
+    background: rgb(0, 247, 255);
+}
+.table1{
+    max-width: 100%;
+    width: 30%;
+    padding: 2rem;
+    margin-top: 20px;
+}
+.table2{
+    max-width: 100%;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 20px;
+}
+thead, th {
+    border-bottom: 1px solid #ddd;
+        width: 30%;
+        padding: 10px;
+        text-align: left;
+    
+  }
+  tbody:nth-child(even) {background-color: #f2f2f2;}
+  th{
+      height: 40px;
+
+  }
+  tr{
+      width: 100%;
+      justify-content: space-between;
+  }
+  td{
+      padding: 5px;
+  }
+  .input{
+    width: 100%;
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,21 @@
+.drop{
+    display: flex;
+    height: 200px;
+    background: #407ec9;;;
+    opacity: 0.8;
+    width: 100%;
+    position: inherit;
+    z-index: 100;
+    animation: slide-open 0.5s forwards;
+}
+@keyframes slide-open{
+    100%{top: inherit;}
+}
+.dropmenu{
+    width: 30%;
+    border-right: 1px solid white;
+}
+.submenu{
+    width:20%;
+    border-right: 1px black solid;
+}
