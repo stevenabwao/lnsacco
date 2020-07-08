@@ -9,9 +9,8 @@
     margin: .6em;
     padding: 1em;
     background-color: white;
-    border: 1px solid rgb(0, 163, 224)
-    &:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }
+    border: 1px solid rgb(0, 163, 224);
+   
 }
 .items:hover{
     border:rgb(0, 163, 224) solid;;
@@ -56,17 +55,11 @@ img{
     
 }
 
-@media screen  (max-width: 980px) {
+@media (max-width: 980px) {
     .cont .items {
           margin-bottom: 5px;
       flex-basis: 40%;
-          &:nth-last-child(2) {
-              margin-right: 0;
-          }
-          &:last-child {
-              flex-basis: 100%;
-              margin: 0;
-          }
+         
       }
   }
   
