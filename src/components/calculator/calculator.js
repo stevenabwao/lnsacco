@@ -13,12 +13,12 @@ class Calculator extends Component {
         this.setState({loantype: e.target.value});
      };
      handleAmountChange=(e)=> {
-       var x= e.target.value;
+       
        
      }
      handleperiodChange=(e)=> {
     
-        var y= e.target.value;
+      
         
 
      }

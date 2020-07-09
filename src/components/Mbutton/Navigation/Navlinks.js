@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { } from 'react';
 import { Link } from 'react-router-dom'
 import './navlink.css'
-import Dropdown from "./dropdown";
+// import Dropdown from "./dropdown";
 
 
 const Navlinks = () => {
@@ -15,9 +15,9 @@ const Navlinks = () => {
                     <li ><Link to='#' className='active'><button className="navButtons">MANAGEMENT</button></Link></li>
                     <li><Link to='loans' ><button className="navButtons">PRODUCTS</button></Link>
                         <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <button>Link 1</button>
+                            <button>Link 2</button>
+                           
                         </div>
                     </li>
 
