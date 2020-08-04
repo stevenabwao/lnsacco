@@ -4,6 +4,8 @@
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: rgb(0, 163, 224);
+    font-weight: bolder;
+    font-size: 1.3rem;
     
 }
 .abouthome{
@@ -26,7 +28,8 @@
 .text{
     width: 40%;
     background: white;
-    font-size: 1em;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .more{
@@ -48,7 +51,7 @@ image{
 
 
 .sub{
-    color: blue;
+    color: #2A6EBB;
 }
 .start{
     color: red;

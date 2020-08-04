@@ -28,7 +28,7 @@
     font-size: 25px;
     font-weight: bolder;
     margin-left: 10px;
-    color: #407ec9;
+    color: red;
 }
 .btn{
     color: white;
@@ -40,10 +40,10 @@
 }
 .btn:hover{
     color: black;
-    background-color: lightblue;
+    background-color: rgb(0, 163, 224);
 }
 .content{
-    color: black;
+    color:black;
     font-size: 20px;
 
 }
@@ -68,4 +68,7 @@ img{
           flex-basis: 100%;
           margin: 0 0 5px 0;
       }
+  }
+  .ekash{
+      height:245px;
   }

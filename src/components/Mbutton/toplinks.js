@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import { faCalculator, faPhoneAlt, faRegistered } from '@fortawesome/free-solid-svg-icons';
+import { faCalculator, faRegistered } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom'
 
@@ -17,10 +17,9 @@ const CalcCall = () => {
         color="#407ec9"
         size="2x"
       /></button>Loans Calculator</Link>
-      <Link to="/contactUs"className ="links"><button className='btnlink'><FontAwesomeIcon icon={faPhoneAlt}
-        color="#407ec9" size='2x' /></button>Call us</Link>
+      
       <Link to="/register" className = "links"><button className='btnlink'><FontAwesomeIcon icon={faRegistered}
-        color="#407ec9" size='2x' /></button>Register</Link>
+        color="#407ec9" size='2x' /></button>Registration</Link>
     </ul>
   </div>);
 }

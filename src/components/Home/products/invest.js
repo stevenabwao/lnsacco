@@ -32,10 +32,12 @@ const Investments = () => {
                             size="2x"
                         />
                         <span className = 'title'>E-Kash</span><br></br><br></br>
-                        <img src = {Ekash} alt=""/>
+                        <img className= "ekash" src = {Ekash} alt=""/>
                         <div className = 'content'>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. 
-            Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            Worried about getting instant cash for an emergency.
+            With E-kash you can apply for the loan and get it instantly
+             on your mobile phone.
+            Enjoy our fast, reliable and convienient offers
             <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
             </div>
 
@@ -47,10 +49,11 @@ const Investments = () => {
                             size="2x"
                         />
                         <span className = 'title'>Edu-Kash</span><br></br><br></br>
-                        <img src = {Edukash} alt=""/>
+                        <img className= "ekash" src = {Edukash} alt=""/>
             <div className = 'content'>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. 
-            Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            Ensure your children learn without worries of school fee. 
+            Apply for educash which allowa you to pay school fee without stress.
+            Watch your children enjoy their education and realize their cariers
             <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
             </div>
 
@@ -62,10 +65,11 @@ const Investments = () => {
                             size="2x"
                         />
                         <span className = 'title'>AgriBiz-loan</span><br></br><br></br>
-                        <img src = {Agribiz} alt=""/>
+                        <img className= "ekash" src = {Agribiz} alt=""/>
                         <div className = 'content'>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. 
-            Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            Many small holders farmers can confess that accessing a loan that can 
+            finance your agri-bussiness project is not easy. 
+            Apply for agribiz loan from Lake Nationall Sacco today.
             <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
             </div>
             </div>
@@ -80,11 +84,12 @@ const Investments = () => {
                             color="#407ec9"
                             size="2x"
                         />
-                        <span className = 'title'>salary Loans</span><br></br><br></br>
+                        <span className = 'title'>Salary Loans</span><br></br><br></br>
                         <div className = 'content'>
                         <img src = {Salary} alt=""/>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. 
-            Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            You do not have to wait untill end month to pay your bills and
+             meet your day to day obligations. 
+            Apply and enjoy Lake National Sacco salary loans.
             <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
             </div>
 
@@ -95,11 +100,12 @@ const Investments = () => {
                             color="#407ec9"
                             size="2x"
                         />
-                        <span className = 'title'>Chama Loans</span><br></br><br></br>
+             <span className = 'title'>Chama Loans</span><br></br><br></br>
             <div className = 'content'>
             <img src = {Chama} alt=""/>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. 
-            Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            Chama loans enable groups to save and access loan. 
+            Our loans are reliable,affortable and easily accessible,
+             with low interest rate. Apply and enjoy
             <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
             </div>
 
@@ -112,9 +118,10 @@ const Investments = () => {
                         />
                         <span className = 'title'>Biz-loan</span><br></br><br></br>
                         <div className = 'content'>
-                        <img src = {Biz} alt=""/>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. 
-            Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                        <img className= "ekash" src = {Biz} alt=""/>
+            Biz kash enables our esteemed customers to access funds for their business.
+            Boost your bussiness anytime you can.
+            Apply and enjoy our great biz kash offers.
             <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
             </div>
             </div>

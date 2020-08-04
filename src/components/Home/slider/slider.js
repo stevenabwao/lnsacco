@@ -12,22 +12,30 @@ const content = [
 		description:
 		'Empowering for reaching greate heights',
 		button: 'Read More',
-		image: require('../../../images/money2.jpeg')
+		image: require('./slider/img1.JPG')
 		},
 	{
 		title: 'LOOKING FOR FUNDS??',
 		description:
 		'Enjoy our fast, simple and competitive benefit on loans.',
 		button: 'our loan products',
-		image:  require('./money2.jpeg')
+		image:  require('./slider/money.jpeg')
 	},
 	{
 		title: 'START SAVING WITH US',
 		description:
 		'Grow your potential by saving daily and enhance your financial capabilities.',
 		button: 'Start now',
-		image:  require('./img3.jpg')
-	}
+		image:  require('./slider/save.jpg')
+	},
+	{
+		title: 'YOUR LISTENING PATNER',
+		description:
+		'We are moving forward with you',
+		button: 'Join Now',
+		image:  require('./slider/img5.JPG')
+	},
+	
 ];
 
 const Slider1 = () => (

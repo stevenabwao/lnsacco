@@ -1,14 +1,22 @@
 .left-fixed{
     display: flex;
-    width:30%;
+    width:100%;
     flex-direction: row;
+}
+.loanCont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menuitems{
+    width: 100%;
 }
 .loan-nav{
     
         display: flex;
         flex-direction: column;
         margin-top: 20px;
-        max-width: 100%;
+        max-width: 25%;
         padding: 1rem;
         width: 100%;
         background: #f2f2f2;
@@ -22,8 +30,18 @@
            margin-bottom: 10px;
            border: none;
            font-size: 16px;
+           width: 100%;
     }
     .loanButton.icon{
         display: flex;
         float: right;
     }
+    .loanContainer{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+p{
+    font-size: larger;
+}

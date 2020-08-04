@@ -113,7 +113,8 @@ export default class Contact extends Component {
 
     return (
         <div className="container1">
-            <div><h1 className="tittle">Contact us</h1></div>
+            <div className="tittle">
+              <h1 className="abouttitle">Contact us</h1></div>
         <div className="contact">
             <div className="form"style={{ padding: "2rem", maxWidth: "80%" }}>
         <h1 className="topsearch"> FILL THE CONTACT FORM </h1>
@@ -181,42 +182,42 @@ export default class Contact extends Component {
         </form>
       </div>
       <div className="headquaters">
-          <h1 className='topsearch'>Our head quaters</h1>
+          <h1 className='topsearch'>Our Main Office</h1>
           <div className="footer-center">
 
-                    <div >
+                    <div className="icons">
                     <FontAwesomeIcon
                             icon={faMapMarkerAlt}
-                            color="skyblue"
-                            size="2x"
-                        />
-                        <p><span>5th Floor</span> Mega Plaza, Oginga Odinga street</p>
-                    </div>
-                    <div>
-                    <FontAwesomeIcon
-                            icon={faUsps}
-                            color="skyblue"
-                            size="2x"
-                        />
-                        <p> P.O. Box 2224-40100, Kisumu</p>
-                    </div>
-
-                    <div>
-                    <FontAwesomeIcon
-                            icon={faPhoneAlt}
-                            color="skyblue"
-                            size="1px"
-                        />
-                        <p>+254796101010</p>
-                    </div>
-
-                    <div>
-                    <FontAwesomeIcon
-                            icon={faEnvelopeOpenText}
-                            color="skyblue"
+                            color="#407ec9"
                             size="1x"
                         />
-                        <p><a href="mailto:corporate@lakesacco.com">corporate@lakesacco.com</a></p>
+                         5th Floor Mega Plaza, <p>Oginga Odinga street,</p><p>Kisumu</p>
+                    </div>
+                    <div className="icons">
+                    <FontAwesomeIcon
+                            icon={faUsps}
+                            color="#407ec9"
+                            size="1x"
+                        />
+                         P.O. Box 2224-40100, <p>Kisumu</p>
+                    </div>
+
+                    <div className="icons">
+                    <FontAwesomeIcon
+                            icon={faPhoneAlt}
+                            color="#407ec9"
+                            size="1x"
+                        />
+                        +254796101010
+                    </div><br></br>
+
+                    <div className="icons">
+                    <FontAwesomeIcon
+                            icon={faEnvelopeOpenText}
+                            color="#407ec9"
+                            size="1x"
+                        />
+                        <a href="mailto:corporate@lakesacco.com">corporate@lakesacco.com</a>
                     </div>
 
                 </div>

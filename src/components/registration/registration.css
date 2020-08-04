@@ -1,0 +1,18 @@
+.reg{
+    width:50%;
+}
+.phot{
+   
+    width: 270px;
+    height: 250px;
+    background-color: rgb(0, 163, 224);
+    margin-top: 40px;
+
+}
+.indivTop{
+    color: white
+
+}
+a{
+    cursor: pointer;
+}

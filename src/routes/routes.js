@@ -7,6 +7,9 @@ import Resources from '../components/Resources/resources'
 import Contact from '../components/Contact/contacts'
 import Calculator from '../components/calculator/calculator'
 import Loans from '../components/products/loans'
+import Management from '../components/management/management'
+import Register from '../components/registration/register'
+
 class Routes extends Component {
 
     render() {
@@ -15,8 +18,10 @@ class Routes extends Component {
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/about" exact component={About} />
+                    <Route path="/management" exact component={Management} />
                     <Route path="/contacts" exact component={Contact} />
                     <Route path="/resources" exact component={Resources} />
+                    <Route path="/register" exact component={Register} />
                     <Route path="/calculator" exact component={Calculator} />
                     <Route path="/loans" exact component={Loans} />
                 </Switch>

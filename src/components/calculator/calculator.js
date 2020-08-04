@@ -4,13 +4,17 @@ import './calculate.css'
 class Calculator extends Component {
     constructor(props) {
         super(props);
-        this.state = { 
+        this.state = {
+          loantype: "",
+          loanAmount: "",
+          Period: "", 
 
          }
 
     }
     handleSelectChange=(e)=>{
         this.setState({loantype: e.target.value});
+        
      };
      handleAmountChange=(e)=> {
        
@@ -23,6 +27,12 @@ class Calculator extends Component {
 
      }
      handleclick=()=>{
+       this.setState({
+    
+         
+
+       })
+       
        
      }
      
@@ -30,14 +40,14 @@ class Calculator extends Component {
     render() { 
        
         return ( 
-            <div className="loanCont">
+            <div className="loanContainer">
          <div className='loan'>
            
             <h1 className='topsearch'>Loan calculator</h1>
             <form className="form">
             <label>select loan type</label>
             <select className='input' name="loantype" placeholder='please select'>
-                <option>--please select loan type--</option>
+                <option onChange={this.handleSelectChange}>--please select loan type--</option>
             <option value="Ekash">Ekash</option>
   <option value="Edukash">Edukash</option>
   <option value="Agri-Biz kash">Agri-Biz kash</option>
@@ -49,7 +59,8 @@ class Calculator extends Component {
             <input type="text" name='amount' placeholder='e.g 2000' className='input'  onChange={this.handleAmountChange}/><br></br>
             <label>Repayment Period(month)</label>
             <input type="text" name='period' placeholder='e.g 6' className='input' onChange={this.handleperiodChange}/><br></br>
-            <button className='btnslide' onClick={this.handleclick}>Calculate</button>
+            <br></br><br></br>
+            <button className='btn' onClick={this.handleclick}>Calculate</button>
             </form>
          </div>
          <div className='table1'>
@@ -64,7 +75,7 @@ class Calculator extends Component {
   <tbody>
     <tr>
     <td>Loan type</td>
-    <td>{this.y}</td>
+    <td>{this.props.loantype}</td>
     </tr>
     
   </tbody>
@@ -81,10 +92,6 @@ class Calculator extends Component {
   </tr>
   </tbody>
   <tbody>
-  <tr>
-    <td>Rate</td>
-    <td></td>
-  </tr> 
     </tbody>
     <tbody>
     <tr>
@@ -109,7 +116,6 @@ class Calculator extends Component {
                 <th>PRINCIPAL</th>
                 <th>INTETEST</th>
                 <th>AMOUNT</th>
-                <th>BALANCE</th>
               </tr>
              </thead>
              </table>
