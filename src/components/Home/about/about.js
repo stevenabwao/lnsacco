@@ -18,7 +18,7 @@ const AboutHome = () => {
             <div className="img">
              <img className = "image" src = './SACCO.jpeg' alt = 'logo'/>
             </div>
-            <div className='text'>
+            <div className='img'>
                 <h2 className = "sub">Lake National S a c c o</h2>
                 <p className = "para">    Lake National (LN) Sacco is a Vehicle of Economic Empowerment and Community Development.
                          We operate in the western block counties namely Transnzoia, Bungoma, Kakamega, Vihiga, Nandi,
@@ -37,7 +37,7 @@ const AboutHome = () => {
                 <Link to='/about'><button className = 'btnslide'>Read More</button></Link>
                 
             </div>
-        <div className = 'more'>
+        <div className = 'img'>
             <br></br><br></br><br></br>
         <img className="image" src={TopAbout} alt="about" />
         </div>

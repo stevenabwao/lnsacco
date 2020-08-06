@@ -10,7 +10,7 @@
 }
 .abouthome{
     display: flex;
-    flex-direction: row;
+    flex-direction: row wrap;
     width: 100%;
     top: 0;
     background: white;
@@ -20,22 +20,15 @@
 }
 .img{
     
-    width: 30%;
+    width: 33%;
     height: 50%;
     cursor: pointer;
-    
-}
-.text{
-    width: 40%;
-    background: white;
     font-size: 1.2rem;
     text-align: center;
+    
 }
 
-.more{
-    width: 30%;
-   
-}
+
 .read{
     border: blue solid;
     border-radius: 0.9em;
@@ -70,3 +63,24 @@ image{
       color: rgb(58, 181, 238);
       font-weight: bold;
   }
+  @media (max-width: 880px) {
+
+	.abouthome{
+        font: 14px sans-serif;
+        flex-direction: column;
+	}
+
+	.abouthome .img,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

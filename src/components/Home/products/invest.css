@@ -55,20 +55,26 @@ img{
     
 }
 
-@media (max-width: 980px) {
-    .cont .items {
-          margin-bottom: 5px;
-      flex-basis: 40%;
-         
-      }
-  }
-  
-  @media screen and (max-width: 680px) {
-      .cont .items {
-          flex-basis: 100%;
-          margin: 0 0 5px 0;
-      }
-  }
+
   .ekash{
       height:245px;
   }
+
+  @media (max-width: 880px) {
+
+	.cont{
+        font: 14px sans-serif;
+        flex-direction: column;
+        
+	}
+
+	.cont .items{
+        display: inline-block;
+        width: 400px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+	}
+
+}
+
