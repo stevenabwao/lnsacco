@@ -38,7 +38,7 @@ const Investments = () => {
             With E-kash you can apply for the loan and get it instantly
              on your mobile phone.
             Enjoy our fast, reliable and convienient offers
-            <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+            <Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
             </div>
 
             </div>
@@ -54,7 +54,7 @@ const Investments = () => {
             Ensure your children learn without worries of school fee. 
             Apply for educash which allowa you to pay school fee without stress.
             Watch your children enjoy their education and realize their cariers
-            <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+            <Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
             </div>
 
             </div> 
@@ -70,7 +70,7 @@ const Investments = () => {
             Many small holders farmers can confess that accessing a loan that can 
             finance your agri-bussiness project is not easy. 
             Apply for agribiz loan from Lake Nationall Sacco today.
-            <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+            <Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
             </div>
             </div>
 
@@ -90,7 +90,7 @@ const Investments = () => {
             You do not have to wait untill end month to pay your bills and
              meet your day to day obligations. 
             Apply and enjoy Lake National Sacco salary loans.
-            <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+            <Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
             </div>
 
             </div>
@@ -106,7 +106,7 @@ const Investments = () => {
             Chama loans enable groups to save and access loan. 
             Our loans are reliable,affortable and easily accessible,
              with low interest rate. Apply and enjoy
-            <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+            <Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
             </div>
 
             </div> 
@@ -122,7 +122,7 @@ const Investments = () => {
             Biz kash enables our esteemed customers to access funds for their business.
             Boost your bussiness anytime you can.
             Apply and enjoy our great biz kash offers.
-            <Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+            <Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
             </div>
             </div>
 
@@ -147,7 +147,7 @@ const Investments = () => {
             <span className = 'title'>Target Investments</span><br></br><br></br>
             <div className = 'content'>
 Enable one to save to reach a given target after a specified period of time
-<Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+<Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
 </div>
 
 </div>
@@ -160,7 +160,7 @@ Enable one to save to reach a given target after a specified period of time
             <span className = 'title'>Family Investments</span><br></br><br></br>
 <div className = 'content'>
 Save and see your family grow and be empowered financially
-<Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+<Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
 </div>
 
 </div> 
@@ -174,7 +174,7 @@ Save and see your family grow and be empowered financially
             <div className = 'content'>
 Lorem ipsum dolor sit amet, consectateur adispicing elit. 
 Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-<Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+<Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
 </div>
 </div>
 
@@ -192,7 +192,7 @@ Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
             <div className = 'content'>
 Lorem ipsum dolor sit amet, consectateur adispicing elit. 
 Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-<Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+<Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
 </div>
 
 </div>
@@ -206,7 +206,7 @@ Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
 <div className = 'content'>
 Lorem ipsum dolor sit amet, consectateur adispicing elit. 
 Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-<Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+<Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
 </div>
 
 </div> 
@@ -221,7 +221,7 @@ Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
             <div className = 'content'>
 Lorem ipsum dolor sit amet, consectateur adispicing elit. 
 Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-<Link to='/products'> <button className = 'btn'>Learn More</button></Link>
+<Link to='/loans'> <button className = 'btn'>Learn More</button></Link>
 </div>
 </div>
 

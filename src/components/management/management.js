@@ -1,10 +1,10 @@
 import React from 'react';
 import './management.css'
-import Md from './board/md.jpg'
+// import Md from './board/md.jpg'
 const Management = () => {
     return ( 
         <div>
-            <div className='tittle'>
+            {/* <div className='tittle'>
                 <h1 className = "abouttitle">Management</h1>
             </div>
         <div className="manageCont">
@@ -47,7 +47,12 @@ const Management = () => {
         </div>
         
             
-            
+             */}
+             <div className="temporary">
+
+                 <h2>Oops! this page will be updated soon</h2>
+
+             </div>
 
         </div>
         

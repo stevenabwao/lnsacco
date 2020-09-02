@@ -10,6 +10,11 @@ import Loans from '../components/products/loans'
 import Management from '../components/management/management'
 import Register from '../components/registration/register'
 
+
+
+
+
+
 class Routes extends Component {
 
     render() {

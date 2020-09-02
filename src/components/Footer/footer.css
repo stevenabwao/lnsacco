@@ -187,7 +187,9 @@
 		margin-left: 0;
 	}
 
-}.last{
+}
+
+.last{
   height: 50px;
   background: black;
   color: white;

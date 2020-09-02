@@ -7,18 +7,17 @@
 .contact{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 92%;
     padding: 3rem;
 }
 .headquaters{
     padding: 2rem;
-    max-width:35%;
     width: 40%;
     border: 1px  rgb(0, 163, 224)  solid;
 
 }
 .form{
-    width: 90%;
+    width: 100%;
     border: none;
 }
 .topinputs{
@@ -42,4 +41,50 @@
 }
 a{
     color: red;
+}
+@media (max-width: 880px) {
+
+	.contact{
+        font: 16px sans-serif;
+        flex-direction: column;
+        width: 70%;
+	}
+
+	.form{
+        
+        flex-direction: column;
+        width: 100%;
+        background: rgb(0, 247, 255);
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .form{
+        width: 100%;
+    }
+    .contact .headquaters{
+        
+        width: 100%;
+        
+    }
+    .contact .btn{
+        border-radius: 40px;
+    }
+
+}
+@media (max-width: 480px) {
+
+	.cont{
+        font: 12px sans-serif;
+        flex-direction: column;
+        margin: 0em;
+	}
+
+	.cont .items{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+	}
+
 }

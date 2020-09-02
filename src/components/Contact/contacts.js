@@ -4,7 +4,7 @@ import axios from "axios";
 import {  faMapMarkerAlt, faPhoneAlt, faEnvelopeOpenText} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faUsps} from "@fortawesome/free-brands-svg-icons"
-
+import {TitleComponent}  from '../Titles/title';
 import './contact.css'
 const formGroupStyle = {
   paddingTop: "1rem",
@@ -113,8 +113,10 @@ export default class Contact extends Component {
 
     return (
         <div className="container1">
+          <TitleComponent title='Contact us::Lake National Sacco'/>
             <div className="tittle">
-              <h1 className="abouttitle">Contact us</h1></div>
+              <h1 className="abouttitle">Contact us</h1>
+              </div>
         <div className="contact">
             <div className="form"style={{ padding: "2rem", maxWidth: "80%" }}>
         <h1 className="topsearch"> FILL THE CONTACT FORM </h1>
@@ -183,7 +185,7 @@ export default class Contact extends Component {
       </div>
       <div className="headquaters">
           <h1 className='topsearch'>Our Main Office</h1>
-          <div className="footer-center">
+          <div >
 
                     <div className="icons">
                     <FontAwesomeIcon

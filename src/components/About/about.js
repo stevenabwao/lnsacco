@@ -2,9 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import TopAbout from '../../images/about1.jpg'
 import './about.css'
+import {TitleComponent}  from '../Titles/title';
+
 const About = () => {
     return (
         <div>
+            <TitleComponent title='About::Lake National Sacco'/>
             <div className='tittle'>
                 <h1 className = "abouttitle">About us </h1>
             </div>

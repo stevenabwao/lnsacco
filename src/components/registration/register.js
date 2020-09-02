@@ -1,10 +1,12 @@
 import React from 'react'
 import Individual from './indiv.jpg'
-import './registration.css'
+import './registration.css';
+import {TitleComponent}  from '../Titles/title';
 
 const Register = () => {
     return ( 
         <div >
+            <TitleComponent title='Registration::Lake National Sacco'/>
             <div className='tittle'>
                 <h1 className="abouttitle">Registration requirement</h1>
             </div>

@@ -3,6 +3,15 @@
     width: 100%;
     background: rgb(0, 163, 224);
 }
+.pdf{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+.pdf:hover{
+    color: #407ec9;
+}
 .resource{
     display: flex;
     flex-direction: row;
@@ -29,3 +38,10 @@
 .regPhoto{
     width: 60%;
 }
+@media(max-width: 880px){
+    .regPhoto{
+        width: 100%;
+    }
+}
+
+

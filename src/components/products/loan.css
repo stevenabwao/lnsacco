@@ -45,3 +45,24 @@
 p{
     font-size: larger;
 }
+@media (max-width: 880px){
+    .loanContainer {
+        flex-direction: column;
+    }
+    .loanCont{
+        flex-direction: column;
+    }
+    .loan-nav{
+    
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        max-width: 15%;
+        padding: 1rem;
+        width: 100%;
+        background: #f2f2f2;
+        font-size: 16px;
+
+    }
+
+}

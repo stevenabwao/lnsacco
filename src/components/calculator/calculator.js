@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
-import './calculate.css'
+import './calculate.css';
+import {TitleComponent}  from '../Titles/title';
  
 class Calculator extends Component {
     constructor(props) {
@@ -40,7 +41,8 @@ class Calculator extends Component {
     render() { 
        
         return ( 
-            <div className="loanContainer">
+        <div className="loanContainer1">
+          <TitleComponent title='Calculator::Lake National Sacco'/>
          <div className='loan'>
            
             <h1 className='topsearch'>Loan calculator</h1>

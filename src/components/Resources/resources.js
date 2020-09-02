@@ -1,6 +1,6 @@
 import React from 'react';
 import Register from '../../images/about.jpg'
-
+import RegistrationForm from '../../documents/wat.pdf'
 import './resources.css'
 const Resources = () => {
     return (
@@ -22,29 +22,27 @@ const Resources = () => {
                     </div>
                     <div className="resource">
                     <div className="regPhoto">
-                      <h3>Registration Documents</h3>
+                      <h2>Registration Documents</h2>
                       <img src={Register} alt='REG' />
                     </div>
                     <div>
-                        <h3>Downloads</h3>
-                       <ul>
-                       <li>Individual Registration Form</li>
-                        <li>Grouped Registration Form</li>
-                       </ul>
+                        <h2>Downloads</h2>
+                        <a className="pdf" href={RegistrationForm} target="_blank">Individual Registration Form</a><br></br>
+                        <a className="pdf" href="reg.pdf">Joint Registration Form</a><br></br>
+                        <a className="pdf" href="reg.pdf">Grouped Registration Form</a>
                     </div>
                     </div>
 
                     <div className="resource">
                     <div className="regPhoto">
-                      <h3>Loan product Documents</h3>
+                      <h2>Loan product Documents</h2>
                       <img src={Register} alt='REG' />
                     </div>
                     <div>
                         <h3>Downloads</h3>
-                        <ul>
-                       <li>Individual Registration Form</li>
-                        <li>Grouped Registration Form</li>
-                       </ul>
+                        <a href="reg.pdf">Individual Registration Form</a><br></br>
+                        <a href="reg.pdf">Grouped Registration Form</a>
+                      
                     </div>
                     </div>
 

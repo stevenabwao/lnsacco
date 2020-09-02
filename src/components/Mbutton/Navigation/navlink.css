@@ -102,3 +102,15 @@
   .dropdown:hover .dropbtn {
     color: white;
   }
+
+  @media (max-width: 880px) {
+
+    .nav1{
+          font: 14px sans-serif;
+          flex-direction: column;
+          
+    }
+  
+ 
+  }
+  

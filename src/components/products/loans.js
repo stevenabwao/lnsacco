@@ -7,6 +7,7 @@ import Chama from '../../images/loans/chama.jpg';
 import Salary from '../../images/loans/salary.jpg';
 import Biz from '../../images/loans/bizkash.jpg';
 import "./loan.css";
+import { TitleComponent} from '../Titles/title'
 
 class Loans extends Component  {
     constructor(props) {
@@ -42,6 +43,7 @@ class Loans extends Component  {
 render(){
       return (
         <div>
+          <TitleComponent title='Loans::Lake National Sacco'/>
           <div className='tittle'>
                 <h1 className = "abouttitle">Loan Products </h1>
             </div>

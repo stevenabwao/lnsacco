@@ -1,12 +1,15 @@
+
 .cont{
     display: flex;
     justify-content: center;
     padding: 1em;
     background: rgb(208, 211, 219);
+
 }
 .items{
+    
     flex: 1;
-    margin: .6em;
+    margin: .3em;
     padding: 1em;
     background-color: white;
     border: 1px solid rgb(0, 163, 224);
@@ -21,7 +24,7 @@
 
 .prod{
     color: red;
-    display: inline-block;
+    display: flex;
     
 }
 .title{
@@ -65,16 +68,36 @@ img{
 	.cont{
         font: 14px sans-serif;
         flex-direction: column;
+        margin: 0px;
         
 	}
 
 	.cont .items{
         display: inline-block;
-        width: 400px;
+        flex-direction: column;
+        width: 94%;
         text-align: center;
         margin: 0;
         margin-bottom: 10px;
 	}
 
 }
+@media (max-width: 480px) {
+
+	.cont{
+        font: 12px sans-serif;
+        flex-direction: column;
+        margin: 0em;
+	}
+
+	.cont .items{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+	}
+
+}
+
 
